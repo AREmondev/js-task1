@@ -1,0 +1,47 @@
+.center {
+  display: flex;
+  justify-content: center;
+}
+.w-75 {
+  max-width: 810px;
+  width: 100%;
+}
+.dlt-btn {
+  cursor: pointer;
+  color: rgb(173, 69, 69);
+  transition: 0.35s;
+  -webkit-transition: 0.35s;
+  -moz-transition: 0.35s;
+  -ms-transition: 0.35s;
+  -o-transition: 0.35s;
+  font-weight: bold;
+}
+.dlt-btn:hover {
+  color: rgb(224, 18, 18);
+}
+input {
+  padding: 3px 11px;
+  border: 1px solid rgb(211, 208, 208);
+}
+.input-area {
+  margin-top: 35px;
+  padding: 35px 0;
+}
+#submit-btn {
+  padding: 6px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(7, 136, 18);
+  color: #fff;
+  transition: 0.35s;
+  -webkit-transition: 0.35s;
+  -moz-transition: 0.35s;
+  -ms-transition: 0.35s;
+  -o-transition: 0.35s;
+  font-weight: bold;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
