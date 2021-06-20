@@ -39,10 +39,10 @@ const addUser = (name, email) => {
 
 // Form Submit Event
 addForm.addEventListener('submit', (e) => {
+  e.preventDefault()
   const name = document.getElementById('name').value
   const email = document.getElementById('email').value
 
-  e.preventDefault()
   addUser(name, email)
 })
 // Dlt User
